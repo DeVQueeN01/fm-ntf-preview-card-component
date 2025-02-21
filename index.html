@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NFT Preview Card</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style/reset.css" />
+    <link rel="stylesheet" href="style/main.css" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icon.png" />
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  </head>
+  <body>
+    <main>
+      <article class="card" aria-label="NFT Preview Card">
+        <header class="card-header">
+          <figure class="card-image">
+            <img
+              src="assets/image-card.png"
+              alt="NFT Equilibrium #3429 preview"
+              class="nft-image"
+              width="600"
+              height="400"
+              loading="lazy"
+            />
+            <div class="image-hover">
+              <img
+                src="assets/icon-view.svg"
+                alt="View icon"
+                class="view-icon"
+              />
+            </div>
+          </figure>
+        </header>
+
+        <section class="card-content">
+          <h1>Equilibrium #3429</h1>
+          <p>Our Equilibrium collection promotes balance and calm.</p>
+
+          <dl class="nft-details">
+            <div class="nft-detail">
+              <dt>
+                <img
+                  src="assets/Combined Shape.svg"
+                  alt="Ethereum logo"
+                  width="16"
+                  height="16"
+                />
+              </dt>
+              <dd class="eth">0.041 ETH</dd>
+            </div>
+            <div class="nft-detail">
+              <dt>
+                <img
+                  src="assets/Clock.svg"
+                  alt="Clock icon"
+                  width="16"
+                  height="16"
+                />
+              </dt>
+              <dd class="time"><time datetime="P3D">3 days left</time></dd>
+            </div>
+          </dl>
+        </section>
+
+        <div class="divider"></div>
+
+        <footer class="card-footer">
+          <img
+            src="assets/Oval.svg"
+            alt="Profile picture of creator Jules Wyvern"
+            width="32"
+            height="32"
+          />
+          <p>Creation of <strong>Jules Wyvern</strong></p>
+        </footer>
+      </article>
+    </main>
+  </body>
+</html>
